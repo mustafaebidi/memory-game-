@@ -1,0 +1,65 @@
+
+
+.start-widget{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(35, 43, 53, 0.418);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 7px 10px 7px 4px rgb(0 0 0 / 28%);
+    gap: 20px;
+    z-index: 55;
+    color: black;
+}
+
+
+.control{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: rgba(35, 43, 53, 0.418);
+    box-shadow: 7px 10px 7px 4px rgb(0 0 0 / 28%);
+
+
+
+}
+
+.control > div{
+    display: flex;
+    gap: 20px;
+}
+.control > div > div{
+    cursor: pointer;
+}
+.play-with > div,.type-img  >div{
+    background-color: #f4b230;
+    border-bottom: 5px solid #d49c2c;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.play-with > div.active,.type-img  >div.active{
+    background-color: #fdfdfd;
+}
+
+
+.playing{
+    background-color: white;
+    border-bottom: 5px solid #a9c3cc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 40px;
+}

@@ -1,0 +1,25 @@
+
+.con-scroe{
+    display: flex;
+    justify-content: space-between;
+}
+
+.con-scroe > div{
+    display: flex;
+    justify-content: space-between;    
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: border 1s;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.con-scroe > div.active{
+    border: 2px solid yellow;
+
+
+}
