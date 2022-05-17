@@ -57,11 +57,8 @@ const StartWidget=({detailsPlayWith,setDetailsPlayWith,setStartGame,start})=>{
                 </div>
                 <div className="playing" onClick={()=>{
                     setStartGame(true)
-                    checkBeforeStart()
-
                     if(items.flippedcards > 0){
                         checkBeforeStart()
-                        setStartGame(true)
                         setTimeout(() => {
                             startGame(chosen)
                         }, 1500);
@@ -69,7 +66,6 @@ const StartWidget=({detailsPlayWith,setDetailsPlayWith,setStartGame,start})=>{
                     }
                     else{
                         startGame(chosen)
-                        setStartGame(true)
                     }
 
 
