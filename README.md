@@ -1,3 +1,3 @@
 # Live Server
 
-https://memory-2-game.netlify.app/
+https://1-memory-game-1.netlify.app/
